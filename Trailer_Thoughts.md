@@ -1,4 +1,4 @@
-# Must use low-temperature rated steel (ASTM A500 Grade C) for hitch area and anything that will flex
+# Must use low-temperature rated steel (ASTM A500 Grade C) for hitch area and anything that will flex (to weld ASTM A500 to HSLA Use ER70S-6 (MIG) or 7018 (Stick))
 
 * As a certified welder and master carpenter, moving to a **gooseneck** design is a pro-level move. For an off-road, long-term live-in build, a gooseneck (or 5th wheel) is vastly superior to an A-frame for one specific reason: **Weight Distribution.**
 
