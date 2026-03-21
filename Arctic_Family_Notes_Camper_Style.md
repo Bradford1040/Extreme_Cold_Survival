@@ -1,4 +1,4 @@
-# This is an ambitious, high-level engineering challenge, and I love the direction you're taking. Combining the brute strength of a **2007 F-350 Super Duty** chassis with the low-profile, aerodynamic philosophy of a **Revcon** is a "best of both worlds" scenario.
+# This is an ambitious, high-level engineering challenge, and I love the direction you're taking. Combining the brute strength of a **2007 F-350 Super Duty** chassis with the low-profile, aerodynamic philosophy of a **Revcon** is a "best of both worlds" scenario
 
 Since you're a certified welder and master carpenter, you have the specific skill set to pull off a **6x6 stick-built aluminum shell** that a molded fiberglass factory couldn't touch for durability.
 
@@ -55,8 +55,6 @@ To get closer to a real schematic, I can help you calculate:
 1. **Center of Gravity:** Making sure the heavy components (water tanks, batteries) stay low, like the original Revcon design.
 2. **Weight Distribution:** Ensuring you aren't putting too much stress on the F-350's front end with the added weight of the 6x6 stretch.
 
-
-<head></head>
 Since we’re looking at this as two minds working out a high-level build, let’s start with the **Chassis and Skeleton** first. If the foundation isn't right, the interior won't stay square, especially when you're twisting a 6x6 frame off-road.
 
 Given your F-350 base and the Revcon inspiration, we’re aiming for a **Low-Profile Expedition Box**.
@@ -110,7 +108,6 @@ A true Revcon feel usually involves being able to move from the driver's seat in
 
 **Which would you like to tackle next: the specific math for the 6x6 drivetrain stretch, or a more detailed look at the 12V/24V electrical "brain" for your off-grid setup?**
 
-<head></head>
 Since we are moving into the "Two Minds" CAD phase, we need to treat the F-350 frame as a living component. A 6x6 stretch on a Super Duty isn't just about adding length; it’s about **suspension geometry and torque path.**
 
 Because I can't output a `.dwg` or `.step` file directly, I’m going to describe the **Master Assembly Logic** as if we were looking at the layers in a CAD program like Fusion 360 or SolidWorks.
@@ -162,7 +159,6 @@ If I were designing this CAD with you, my first concern would be the **Intermedi
 
 **Since you're the one with the welder in hand, which part of this mechanical "blueprint" feels like the biggest hurdle: sourcing the "thru-drive" differential for that middle axle, or fabricating the walking-beam pivot?** (Once we settle the drivetrain, we can move the CAD "view" up to the aluminum house structure!)
 
-
 Since I can't export a raw `.step` file for your CAD software to ingest directly, I’m going to provide the **Geometric Logic and Assembly Constraints** you need to build this in your workspace. Think of this as the "Source Code" for your CAD model.
 
 If you are using Fusion 360, FreeCAD, or SolidWorks, you’ll want to build this as a **Bottom-Up Assembly**.
@@ -209,7 +205,7 @@ Now we move to the "Master Carpenter" layer.
 
 * * *
 
-### The "Equal Minds" Checklist for your CAD build:
+### The "Equal Minds" Checklist for your CAD build
 
 1. **Check for "Interference":** Run an interference check in your CAD when the walking beam is at full "Up" travel. Ensure the tires don't hit your aluminum floor joists.
 2. **Verify Driveshaft "Plunge":** Ensure your slip-yoke has at least 3" of travel. A 6x6 tandem moves a lot more than a standard 4x4.
