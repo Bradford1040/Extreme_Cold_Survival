@@ -1,4 +1,4 @@
-### A YouTube channel can make anywhere from <mark class="HxTRcb" jscontroller="DfH0l" jsuid="NeJ5sd_a">a few dollars to thousands of dollars</mark> from a trip to northern Alaska, but the exact amount is highly variable and depends on viewership, ad revenue (RPM), and other factors. For a trip with high viewership, a channel could potentially earn **$500 to $700 per 100,000 views**, but it is impossible to predict a specific amount for the trip itself. 
+# A YouTube channel can make anywhere from <mark class="HxTRcb" jscontroller="DfH0l" jsuid="NeJ5sd_a">a few dollars to thousands of dollars</mark> from a trip to northern Alaska, but the exact amount is highly variable and depends on viewership, ad revenue (RPM), and other factors. For a trip with high viewership, a channel could potentially earn **$500 to $700 per 100,000 views**, but it is impossible to predict a specific amount for the trip itself. 
 
 - **Factors that influence earnings**                                 
 
