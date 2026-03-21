@@ -1,4 +1,4 @@
-<head></head>
+
 ## (1) The Vision: The "Arctic Family" Influence Channel 🎥❄️
 
 **The Mission:** Documenting a family’s journey into the extreme north. Featuring **Bradford** (Tech & Trades), **Tyrel**, **Angelica**, and our two elite trail dogs, **Moose** (Pit/Staffy mix) and **Vash** (Black Mouth Cur).
