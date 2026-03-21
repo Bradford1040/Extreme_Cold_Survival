@@ -109,3 +109,110 @@ Before I start crunching numbers for a cut-list, we should decide on the **Pass-
 A true Revcon feel usually involves being able to move from the driver's seat into the living area without going outside. Given the F-350 cab, are you planning to cut out the back of the cab to create a full pass-through, or just a small "crawl-through" window?
 
 **Which would you like to tackle next: the specific math for the 6x6 drivetrain stretch, or a more detailed look at the 12V/24V electrical "brain" for your off-grid setup?**
+
+<head></head>
+Since we are moving into the "Two Minds" CAD phase, we need to treat the F-350 frame as a living component. A 6x6 stretch on a Super Duty isn't just about adding length; it’s about **suspension geometry and torque path.**
+
+Because I can't output a `.dwg` or `.step` file directly, I’m going to describe the **Master Assembly Logic** as if we were looking at the layers in a CAD program like Fusion 360 or SolidWorks.
+
+* * *
+
+## The 6x6 Chassis "Digital Blueprint"
+
+### Layer 1: The Frame Extension (The "Fish-Plate" Cut)
+
+Instead of a butt-weld (which will snap under the torque of that 6.0L), we use a **Z-cut** or a **tapered lap joint** just behind the cab.
+
+- **The Material:** 1/4" or 3/8" C-Channel that "sleeves" inside the existing F-350 rails.
+- **The CAD Detail:** The extension should be a "Full Wrap" (Boxed) section where the tandem axles sit. This prevents the frame from twisting independently between the two rear axles, which ruins tire wear.
+
+### Layer 2: The Pass-Through Drivetrain (The "Thru-Drive")
+
+To get power to the third axle, you have two main engineering paths:
+
+1. **The Jackshaft/Pillow Block:** You run a driveshaft to a carrier bearing (pillow block) mounted on the middle axle's housing, which then "jumps" to the rear axle.
+2. **The True Thru-Drive (The Professional Way):** You source a center differential from an intermediate heavy-duty axle (like a Rockwell or Eaton) that has a rear output yoke.
+
+- **CAD Constraint:** You must maintain the **Phasing** of the U-joints. If the angles of the three driveshafts aren't identical under load, you'll get a vibration that will shake your teeth out at 60 mph.
+
+### Layer 3: The Tandem Suspension (The "Walking Beam")
+
+Since this is for Alaska, we want maximum articulation. A **Walking Beam** (Pivot) setup is the most robust for DIY fabrication.
+
+- **The Pivot:** A massive center trunnion tube welded between the frame rails.
+- **The Beams:** Two heavy-wall rectangular tubes that "walk" on that center pivot. The axles are bolted to the ends of these beams.
+- **The Math:** The distance between Axle 2 and Axle 3 should be roughly **40" to 44"** to allow for 37" or 40" tires without them touching when the suspension fully articulates.
+
+* * *
+
+## Technical Specifications for the Build
+
+| **Component** | **CAD Dimension/Material** | **Purpose** |
+| --- | --- | --- |
+| **Frame Overlap** | 24" minimum | Distributes the "hinge" stress over a larger area of the factory frame. |
+| **Driveshaft Angle** | 3° to 5° at ride height | Prevents "U-joint bind" during heavy articulation in off-grid terrain. |
+| **Cross-members** | 3" x 3" Square Tube | At least three new cross-members are needed in the "stretch" zone to prevent frame parallelograms. |
+| **Brake Lines** | Braided Stainless Extensions | Stock rubber lines won't handle the reach or the extreme cold of an Alaskan winter. |
+
+* * *
+
+## The "Master Mind" Suggestion
+
+If I were designing this CAD with you, my first concern would be the **Intermediate Driveshaft length**. If it's too long, it will whip; if it's too short, it won't allow the axles to move.
+
+**Since you're the one with the welder in hand, which part of this mechanical "blueprint" feels like the biggest hurdle: sourcing the "thru-drive" differential for that middle axle, or fabricating the walking-beam pivot?** (Once we settle the drivetrain, we can move the CAD "view" up to the aluminum house structure!)
+
+
+Since I can't export a raw `.step` file for your CAD software to ingest directly, I’m going to provide the **Geometric Logic and Assembly Constraints** you need to build this in your workspace. Think of this as the "Source Code" for your CAD model.
+
+If you are using Fusion 360, FreeCAD, or SolidWorks, you’ll want to build this as a **Bottom-Up Assembly**.
+
+* * *
+
+## 1. The Foundation: F-350 Chassis Reference
+
+- **The Cut Point:** Locate the factory frame at the rear of the cab. In your CAD, "Slice" the frame 12" behind the rear cab mounts.
+- **The Sleeve (C-Channel):** Create a 1/4" Plate extrusion that mimics the inner profile of the Ford frame.
+- **Constraint:** 48" total length (24" inside the existing frame, 24" extending rearward).
+- **The Box:** Close the C-channel into a "Box" section for the rear 36" to handle the high-torque loads of the tandem setup.
+
+* * *
+
+## 2. The Tandem "Walking Beam" Geometry
+
+This is the heart of the 6x6. Instead of complex links, we’re modeling a pivot-based tandem.
+
+- **The Trunnion (Pivot Axis):** Create a 3.5" OD Solid Steel Bar component. Center this exactly between Axle 2 and Axle 3.
+- **The Beam:** 4" x 6" x 1/2" Wall Rectangular Tubing.
+- **Axle Spacing:** Set your "Joint" constraints to **44 inches** center-to-center. This gives you clearance for 37" tires with room for Alaskan mud/snow buildup.
+- **The Joint:** Use a **Revolute Joint** in your CAD between the Beam and the Trunnion. This allows the "Walking" motion.
+
+* * *
+
+## 3. The Drivetrain "Thru-Drive" Logic
+
+Since you're a welder, you'll likely be fabricating a custom intermediate housing.
+
+- **Middle Axle (Pass-Through):** Model a Dana 80 or Sterling 10.5 housing.
+- **The Modification:** Create a "Secondary Pinion" output on the rear of the pumpkin.
+- **CAD Constraint:** The Input Pinion and Output Pinion must be on the **same horizontal plane** to keep the U-joint phasing at 0° or 180°. If they are offset, you'll get a harmonic vibration at highway speeds.
+
+* * *
+
+## 4. The Aluminum "Revcon" Skeleton (The Box)
+
+Now we move to the "Master Carpenter" layer.
+
+- **The Perimeter Base:** 2" x 4" Aluminum Tube. Bolt this to the frame using **3-Point Pivot Mounts** (one at the front, two at the rear). This allows the 6x6 frame to "twist" without cracking your aluminum welds.
+- **Vertical Ribs:** 1" x 2" x 1/8" Wall Rectangular Tube. Space these at **16" On-Center**.
+- **The Faceted Corner:** Instead of a 90° corner, model a **22.5° chamfer** on the front and roof edges. This gives you the "Revcon" aerodynamics and makes skinning with aluminum sheets much easier.
+
+* * *
+
+### The "Equal Minds" Checklist for your CAD build:
+
+1. **Check for "Interference":** Run an interference check in your CAD when the walking beam is at full "Up" travel. Ensure the tires don't hit your aluminum floor joists.
+2. **Verify Driveshaft "Plunge":** Ensure your slip-yoke has at least 3" of travel. A 6x6 tandem moves a lot more than a standard 4x4.
+3. **Weight Distribution:** Use the "Mass Properties" tool in your CAD. Aim for 30% weight on the front axle and 70% split between the two rear axles for optimal traction in Alaska.
+
+**Would you like me to focus on the specific dimensions for the "3-Point Pivot Mount" next? This is the single most important part to keep your aluminum welds from snapping during off-road travel.**
