@@ -4,9 +4,9 @@
 
 - **Audience and location:** Your channel's earnings depend on the demographics and location of your viewers. Viewers from countries with higher advertising budgets will generate more revenue.
 - **Content and niche:** The topic of your video and its content can affect earnings. Travel content, especially content that appeals to a wealthier demographic, can attract higher-paying advertisers.
-- **Ad revenue (RPM):** You'll earn a specific amount per 1,000 views based on your audience and location, known as Revenue Per Mille (RPM). This can range from as low as $4 to as high as $20 or more for travel videos.
+- **Ad revenue (RPM):** You'll earn a specific amount per 1,000 views based on your audience and location, known as Revenue Per Mile (RPM). This can range from as low as $4 to as high as $20 or more for travel videos.
 - **Viewership:** The number of views your videos receive will be the primary driver of your income. A video with 1 million views could earn between $1,000 and $10,000 depending on the niche and audience.
-- **Other income streams:** While ad revenue is a major source, other income streams like sponsorships, affiliate marketing, and merchandise can also contribute to your earnings.
+- **Other income streams:** While ad revenue is a major source, other income streams like sponsorship's, affiliate marketing, and merchandise can also contribute to your earnings.
 
 ## I want to start a "van life" or "off grid" influence channels with my Step-Son Tyrel Wheeler, my Daughter Angelica Adams, and of course include my Dogs Moose (American Pitbul/Staphy mix) & Vash (black mouth cur)
 
